@@ -50,6 +50,8 @@ export const uiProps = createUIProps({
     properties: ["borderEndStartRadius", "borderEndEndRadius"],
   },
   boxSize: { properties: ["width", "height"] },
+  minBoxSize: { properties: ["minWidth", "minHeight"] },
+  maxBoxSize: { properties: ["maxWidth", "maxHeight"] },
   translateX: {
     properties: "--ui-translate-x",
     description: [
@@ -216,7 +218,7 @@ export const uiProps = createUIProps({
       "If `backdropBlur=auto`, sets the value of `--ui-backdrop-sepia`.",
     ],
   },
-  noOfLines: {
+  lineClamp: {
     static: {
       overflow: "hidden",
       textOverflow: "ellipsis",
