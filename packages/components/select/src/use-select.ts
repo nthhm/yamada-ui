@@ -1,15 +1,16 @@
-import type { CSSUIObject, HTMLUIProps } from "@yamada-ui/core"
+import type { CSSUIObject, HTMLUIProps, UIPropGetter } from "@yamada-ui/core"
 import { layoutStyleProperties } from "@yamada-ui/core"
 import type { FormControlOptions } from "@yamada-ui/form-control"
 import {
-  formControlProperties,
+  getFormControlProperties,
   useFormControlProps,
 } from "@yamada-ui/form-control"
+import type { MotionUIPropGetter } from "@yamada-ui/motion"
 import type { PopoverProps } from "@yamada-ui/popover"
 import { useControllableState } from "@yamada-ui/use-controllable-state"
 import { createDescendant } from "@yamada-ui/use-descendant"
 import { useOutsideClick } from "@yamada-ui/use-outside-click"
-import type { Dict, PropGetter } from "@yamada-ui/utils"
+import type { Dict } from "@yamada-ui/utils"
 import {
   createContext,
   dataAttr,
@@ -103,6 +104,10 @@ export type UseSelectProps<T extends MaybeValue = string> = Omit<
      */
     name?: string
     /**
+     * The placeholder of the select.
+     */
+    placeholder?: string
+    /**
      * The value of the select.
      */
     value?: T
@@ -160,7 +165,10 @@ export const useSelect = <T extends MaybeValue = string>({
 }: UseSelectProps<T>) => {
   rest = useFormControlProps(rest)
 
-  const formControlProps = pickObject(rest, formControlProperties)
+  const formControlProps = pickObject(
+    rest,
+    getFormControlProperties({ omit: ["aria-readonly"] }),
+  )
   const computedProps = splitObject(rest, layoutStyleProperties)
 
   const descendants = useSelectDescendants()
@@ -576,7 +584,7 @@ export const useSelect = <T extends MaybeValue = string>({
     [duration, onClose, onOpen, placement, rest, isOpen],
   )
 
-  const getContainerProps: PropGetter = useCallback(
+  const getContainerProps: UIPropGetter = useCallback(
     (props = {}, ref = null) => ({
       ref: mergeRefs(containerRef, ref),
       ...computedProps[0],
@@ -589,7 +597,7 @@ export const useSelect = <T extends MaybeValue = string>({
     [computedProps, formControlProps, onBlur, onClick, rest],
   )
 
-  const getFieldProps: PropGetter = useCallback(
+  const getFieldProps: UIPropGetter = useCallback(
     (props = {}, ref = null) => ({
       ref: mergeRefs(fieldRef, ref),
       tabIndex: 0,
@@ -597,6 +605,7 @@ export const useSelect = <T extends MaybeValue = string>({
         "value",
         "defaultValue",
         "onChange",
+        "aria-readonly",
       ]),
       ...props,
       "data-active": dataAttr(isOpen),
@@ -687,7 +696,7 @@ export const useSelectList = () => {
     beforeFocusedIndex.current = selectedValue.index
   }, [listRef, selectedValue])
 
-  const getListProps: PropGetter = useCallback(
+  const getListProps: MotionUIPropGetter<"ul"> = useCallback(
     (props = {}, ref = null) => ({
       as: "ul",
       ref: mergeRefs(listRef, ref),
@@ -740,7 +749,7 @@ export const useSelectOptionGroup = ({
 
   const computedRest = splitObject(rest, layoutStyleProperties)
 
-  const getContainerProps: PropGetter = useCallback(
+  const getContainerProps: UIPropGetter = useCallback(
     (props = {}, ref = null) => {
       const style: CSSProperties = {
         border: "0px",
@@ -764,7 +773,7 @@ export const useSelectOptionGroup = ({
     [computedRest, isEmpty],
   )
 
-  const getGroupProps: PropGetter = useCallback(
+  const getGroupProps: UIPropGetter = useCallback(
     (props = {}, ref = null) => ({
       ref,
       ...props,
@@ -927,7 +936,7 @@ export const useSelectOption = (
     if (isSelected) onChangeLabel(computedProps.value ?? "", false)
   }, [computedProps, isSelected, onChangeLabel])
 
-  const getOptionProps: PropGetter = useCallback(
+  const getOptionProps: UIPropGetter<"li"> = useCallback(
     (props = {}) => {
       const style: CSSProperties = {
         border: "0px",

@@ -1,5 +1,45 @@
 # @yamada-ui/test
 
+## 1.0.5
+
+### Patch Changes
+
+- Updated dependencies [[`e488f91`](https://github.com/hirotomoyamada/yamada-ui/commit/e488f91d6facc819748f78df5b9574cc8f830ada)]:
+  - @yamada-ui/theme@1.1.4
+  - @yamada-ui/providers@1.0.5
+
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies [[`60163b6`](https://github.com/hirotomoyamada/yamada-ui/commit/60163b6b1d13a904754e207da3c0840a8e265e3e)]:
+  - @yamada-ui/theme@1.1.3
+  - @yamada-ui/providers@1.0.4
+
+## 1.0.3
+
+### Patch Changes
+
+- Updated dependencies [[`c382711`](https://github.com/hirotomoyamada/yamada-ui/commit/c3827110e32a7528ea5bd7bf84e9dccf7b1abfdc)]:
+  - @yamada-ui/theme@1.1.2
+  - @yamada-ui/providers@1.0.3
+
+## 1.0.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @yamada-ui/providers@1.0.2
+  - @yamada-ui/theme@1.1.1
+
+## 1.0.1
+
+### Patch Changes
+
+- Updated dependencies [[`194c9e2`](https://github.com/hirotomoyamada/yamada-ui/commit/194c9e2d37920f9a68ec2e8bd8f5776eb948d777), [`357213f`](https://github.com/hirotomoyamada/yamada-ui/commit/357213fd487f553813c1e46b4129cb84c6fd3e47)]:
+  - @yamada-ui/theme@1.1.0
+  - @yamada-ui/providers@1.0.1
+
 ## 1.0.0
 
 ### Major Changes

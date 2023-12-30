@@ -1,5 +1,195 @@
 # @yamada-ui/react
 
+## 1.0.5
+
+### Patch Changes
+
+- Updated dependencies [[`b686c2a`](https://github.com/hirotomoyamada/yamada-ui/commit/b686c2a768cde5de1f31289a637c1fe68696052f), [`e488f91`](https://github.com/hirotomoyamada/yamada-ui/commit/e488f91d6facc819748f78df5b9574cc8f830ada), [`acdaddc`](https://github.com/hirotomoyamada/yamada-ui/commit/acdaddcf2dd6f6bde866e78e6545e2705dac6e9c), [`e488f91`](https://github.com/hirotomoyamada/yamada-ui/commit/e488f91d6facc819748f78df5b9574cc8f830ada)]:
+  - @yamada-ui/form-control@1.0.3
+  - @yamada-ui/theme@1.1.4
+  - @yamada-ui/select@1.0.4
+  - @yamada-ui/switch@1.0.3
+  - @yamada-ui/checkbox@1.0.3
+  - @yamada-ui/segmented-control@1.0.3
+  - @yamada-ui/autocomplete@1.0.4
+  - @yamada-ui/editable@1.0.3
+  - @yamada-ui/file-button@1.0.4
+  - @yamada-ui/file-input@1.0.3
+  - @yamada-ui/input@1.0.3
+  - @yamada-ui/native-select@1.0.4
+  - @yamada-ui/number-input@1.0.3
+  - @yamada-ui/pin-input@1.0.3
+  - @yamada-ui/radio@1.0.3
+  - @yamada-ui/slider@1.0.4
+  - @yamada-ui/textarea@1.0.3
+  - @yamada-ui/providers@1.0.5
+  - @yamada-ui/theme-tools@1.0.5
+  - @yamada-ui/use-media-query@1.0.5
+
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies [[`60163b6`](https://github.com/hirotomoyamada/yamada-ui/commit/60163b6b1d13a904754e207da3c0840a8e265e3e), [`60163b6`](https://github.com/hirotomoyamada/yamada-ui/commit/60163b6b1d13a904754e207da3c0840a8e265e3e)]:
+  - @yamada-ui/button@1.0.3
+  - @yamada-ui/theme@1.1.3
+  - @yamada-ui/file-button@1.0.3
+  - @yamada-ui/modal@1.0.3
+  - @yamada-ui/providers@1.0.4
+  - @yamada-ui/theme-tools@1.0.4
+  - @yamada-ui/use-media-query@1.0.4
+
+## 1.0.3
+
+### Patch Changes
+
+- [`485aaca`](https://github.com/hirotomoyamada/yamada-ui/commit/485aacad6068ffb55ddc4e9d2e7c6b6c3a509918) Thanks [@hirotomoyamada](https://github.com/hirotomoyamada)! - Updated Discord url.
+
+- Updated dependencies [[`c382711`](https://github.com/hirotomoyamada/yamada-ui/commit/c3827110e32a7528ea5bd7bf84e9dccf7b1abfdc), [`e6429c3`](https://github.com/hirotomoyamada/yamada-ui/commit/e6429c3420e261f07bb14247928722e22f7b9cd7), [`7a9b78a`](https://github.com/hirotomoyamada/yamada-ui/commit/7a9b78af180dbcfa0877d8eda2eff6bb91cfd140), [`f1ffc2a`](https://github.com/hirotomoyamada/yamada-ui/commit/f1ffc2a66a610b1527b23e31de1b21664ba43b47)]:
+  - @yamada-ui/theme@1.1.2
+  - @yamada-ui/autocomplete@1.0.3
+  - @yamada-ui/native-select@1.0.3
+  - @yamada-ui/native-table@1.0.3
+  - @yamada-ui/select@1.0.3
+  - @yamada-ui/slider@1.0.3
+  - @yamada-ui/providers@1.0.3
+  - @yamada-ui/theme-tools@1.0.3
+  - @yamada-ui/use-media-query@1.0.3
+
+## 1.0.2
+
+### Patch Changes
+
+- Updated dependencies [[`8406ded`](https://github.com/hirotomoyamada/yamada-ui/commit/8406dedb22127fe0bb564db7b197d90fd2070e3d), [`1918baa`](https://github.com/hirotomoyamada/yamada-ui/commit/1918baa2c62d08a4826e2ab6faf98a271f6bdc58)]:
+  - @yamada-ui/avatar@1.1.1
+  - @yamada-ui/core@1.1.1
+  - @yamada-ui/accordion@1.0.2
+  - @yamada-ui/alert@1.0.2
+  - @yamada-ui/autocomplete@1.0.2
+  - @yamada-ui/badge@1.0.2
+  - @yamada-ui/breadcrumb@1.0.2
+  - @yamada-ui/button@1.0.2
+  - @yamada-ui/card@1.0.2
+  - @yamada-ui/checkbox@1.0.2
+  - @yamada-ui/close-button@1.0.2
+  - @yamada-ui/editable@1.0.2
+  - @yamada-ui/file-button@1.0.2
+  - @yamada-ui/file-input@1.0.2
+  - @yamada-ui/form-control@1.0.2
+  - @yamada-ui/highlight@1.0.2
+  - @yamada-ui/icon@1.0.2
+  - @yamada-ui/image@1.0.2
+  - @yamada-ui/indicator@1.1.1
+  - @yamada-ui/input@1.0.2
+  - @yamada-ui/kbd@1.0.2
+  - @yamada-ui/layouts@1.0.2
+  - @yamada-ui/link@1.0.2
+  - @yamada-ui/list@1.0.2
+  - @yamada-ui/loading@1.0.2
+  - @yamada-ui/menu@1.0.2
+  - @yamada-ui/modal@1.0.2
+  - @yamada-ui/motion@1.0.2
+  - @yamada-ui/native-select@1.0.2
+  - @yamada-ui/native-table@1.0.2
+  - @yamada-ui/notice@1.0.2
+  - @yamada-ui/number-input@1.0.2
+  - @yamada-ui/pagination@1.0.2
+  - @yamada-ui/pin-input@1.0.2
+  - @yamada-ui/popover@1.0.2
+  - @yamada-ui/progress@1.0.2
+  - @yamada-ui/radio@1.0.2
+  - @yamada-ui/reorder@1.0.2
+  - @yamada-ui/ripple@1.0.2
+  - @yamada-ui/scroll-area@1.0.2
+  - @yamada-ui/segmented-control@1.0.2
+  - @yamada-ui/select@1.0.2
+  - @yamada-ui/skeleton@1.0.2
+  - @yamada-ui/slider@1.0.2
+  - @yamada-ui/stepper@1.0.2
+  - @yamada-ui/switch@1.0.2
+  - @yamada-ui/tabs@1.0.2
+  - @yamada-ui/tag@1.0.2
+  - @yamada-ui/textarea@1.0.2
+  - @yamada-ui/tooltip@1.0.2
+  - @yamada-ui/transitions@1.0.2
+  - @yamada-ui/typography@1.0.2
+  - @yamada-ui/use-animation@1.0.2
+  - @yamada-ui/use-breakpoint@1.1.1
+  - @yamada-ui/use-popper@1.0.2
+  - @yamada-ui/use-token@1.0.2
+  - @yamada-ui/use-value@1.0.2
+  - @yamada-ui/providers@1.0.2
+  - @yamada-ui/theme@1.1.1
+  - @yamada-ui/theme-tools@1.0.2
+  - @yamada-ui/use-media-query@1.0.2
+
+## 1.0.1
+
+### Patch Changes
+
+- Updated dependencies [[`194c9e2`](https://github.com/hirotomoyamada/yamada-ui/commit/194c9e2d37920f9a68ec2e8bd8f5776eb948d777), [`194c9e2`](https://github.com/hirotomoyamada/yamada-ui/commit/194c9e2d37920f9a68ec2e8bd8f5776eb948d777), [`357213f`](https://github.com/hirotomoyamada/yamada-ui/commit/357213fd487f553813c1e46b4129cb84c6fd3e47), [`357213f`](https://github.com/hirotomoyamada/yamada-ui/commit/357213fd487f553813c1e46b4129cb84c6fd3e47), [`9a5768a`](https://github.com/hirotomoyamada/yamada-ui/commit/9a5768a160d252cfe7bb2e533796f7cdcbcf5006)]:
+  - @yamada-ui/indicator@1.1.0
+  - @yamada-ui/avatar@1.1.0
+  - @yamada-ui/theme@1.1.0
+  - @yamada-ui/use-breakpoint@1.1.0
+  - @yamada-ui/core@1.1.0
+  - @yamada-ui/providers@1.0.1
+  - @yamada-ui/theme-tools@1.0.1
+  - @yamada-ui/use-value@1.0.1
+  - @yamada-ui/accordion@1.0.1
+  - @yamada-ui/alert@1.0.1
+  - @yamada-ui/autocomplete@1.0.1
+  - @yamada-ui/badge@1.0.1
+  - @yamada-ui/breadcrumb@1.0.1
+  - @yamada-ui/button@1.0.1
+  - @yamada-ui/card@1.0.1
+  - @yamada-ui/checkbox@1.0.1
+  - @yamada-ui/close-button@1.0.1
+  - @yamada-ui/editable@1.0.1
+  - @yamada-ui/file-button@1.0.1
+  - @yamada-ui/file-input@1.0.1
+  - @yamada-ui/form-control@1.0.1
+  - @yamada-ui/highlight@1.0.1
+  - @yamada-ui/icon@1.0.1
+  - @yamada-ui/image@1.0.1
+  - @yamada-ui/input@1.0.1
+  - @yamada-ui/kbd@1.0.1
+  - @yamada-ui/layouts@1.0.1
+  - @yamada-ui/link@1.0.1
+  - @yamada-ui/list@1.0.1
+  - @yamada-ui/loading@1.0.1
+  - @yamada-ui/menu@1.0.1
+  - @yamada-ui/modal@1.0.1
+  - @yamada-ui/motion@1.0.1
+  - @yamada-ui/native-select@1.0.1
+  - @yamada-ui/native-table@1.0.1
+  - @yamada-ui/notice@1.0.1
+  - @yamada-ui/number-input@1.0.1
+  - @yamada-ui/pagination@1.0.1
+  - @yamada-ui/pin-input@1.0.1
+  - @yamada-ui/popover@1.0.1
+  - @yamada-ui/progress@1.0.1
+  - @yamada-ui/radio@1.0.1
+  - @yamada-ui/reorder@1.0.1
+  - @yamada-ui/ripple@1.0.1
+  - @yamada-ui/scroll-area@1.0.1
+  - @yamada-ui/segmented-control@1.0.1
+  - @yamada-ui/select@1.0.1
+  - @yamada-ui/skeleton@1.0.1
+  - @yamada-ui/slider@1.0.1
+  - @yamada-ui/stepper@1.0.1
+  - @yamada-ui/switch@1.0.1
+  - @yamada-ui/tabs@1.0.1
+  - @yamada-ui/tag@1.0.1
+  - @yamada-ui/textarea@1.0.1
+  - @yamada-ui/tooltip@1.0.1
+  - @yamada-ui/transitions@1.0.1
+  - @yamada-ui/typography@1.0.1
+  - @yamada-ui/use-animation@1.0.1
+  - @yamada-ui/use-popper@1.0.1
+  - @yamada-ui/use-token@1.0.1
+  - @yamada-ui/use-media-query@1.0.1
+
 ## 1.0.0
 
 ### Major Changes
